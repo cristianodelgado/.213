@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rubik+Moonrocks&display=swap');
+body {
+    max-width: 1600px;
+    /*margin: 0 auto;
+    padding: 4em;*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    /*text-align: center;*/
+    background-color: #fcfbfb; 
+    margin: 0;
+    padding: 0;
+  }
+  #hero-img{
+    width: 100%;
+}
+  #hero-msg h1 {
+    text-align: center;
+} 
+#hero-msg h4 {
+    text-align: center;
+}.msg{
+    background-color: #e4e4ea; 
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #f3f4ef;
+}
+footer{
+    background-color: #0d0de3; 
+    color: #edd8c1;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer {
+    margin-top: 25px;
+}
