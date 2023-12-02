@@ -170,6 +170,18 @@ main section img {
     grid-column: 2/5;
     grid-row: 2/7;
 }
+.img-zoom-container {
+    margin: 200px 0;
+    grid-column: 2/5;
+    grid-row: 2/7;
+    
+}
+  #myimage {
+    border: 10px solid #d9c2a3;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    }
 .resu-card {
     margin: 200px 0;
     grid-column: 7/10;
