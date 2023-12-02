@@ -80,8 +80,8 @@ nav a:hover{
     
 }
 footer{
-    background-color: #64525b; 
-    color: #edd8c1;
+    background-color: rgb(138, 127, 138); 
+    color: #312f2d;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -93,7 +93,7 @@ footer{
 
 h4{
     font-family:Georgia, Arial, Times;
-    color: #efeae1;
+    color: #302e2a;
 }
 
 .msg p{
