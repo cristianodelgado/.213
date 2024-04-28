@@ -1,94 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rubik+Moonrocks&display=swap');
-
-body {
-    max-width: 1600px;
-    font-family: Verdana, Tahoma, sans-serif;
-
-    background-color: #f3f3fb;
-    margin: 5px;
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
-nav a {
-    background-color: #0b0b0e;
+
+:root {
+
+    font-family: 'Assistant', sans-serif;
+
+}
+
+header {
+    background-color: #01375D;
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+.navigation {
+    background-color: #101010;
     list-style-type: none;
     margin: auto;
-    max-width: 1900px;
+    /* max-width: 1600px;*/
     text-align: center;
     font-size: 1.5rem;
-    padding: .5rem;
-    display: block;
-    color: white;
-    text-decoration: none;
 }
 
+nav .navigation {
+    padding: .5rem;
+    display: block;
+    align-items: center;
+}
+
+.active {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: .5rem;
+}
+
+.navigation li a {
+    color: white;
+}
+
+
+body {
+    background-color: white;
+    margin: 5px;
+}
+
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: block;
+    padding: .5rem;
+
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 2rem;
+    box-shadow: 0px 1.5px #01375D;
+    margin: 2vw;
+
+}
 
 .card {
     border-radius: 8px;
     margin: 2rem 2vw;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
+    text-align: center;
     overflow: hidden;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px#3D405B;
-    text-align: left;
-    text-decoration: none;
-    padding: 15px;
-
 }
 
 .card1 {
+    text-align: left;
     border-radius: 8px;
     margin: 2rem 2vw;
     overflow: hidden;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px#3D405B;
-    text-align: center;
-    text-decoration: none;
-    padding: 15px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
 }
 
 h2 {
-    margin: 5vw;
-    font-size: 1.5rem;
-    box-shadow: 0px 1.5px #3D405B;
-    text-align: center;
-    padding: 30px;
 
-}
-
-
-
-h3 {
-    color: white;
     padding: .75rem 0;
     border-radius: 10px;
     display: block;
     text-align: center;
-    background-color: #40457a;
-}
-
-main section {
-    text-align: center;
-}
-
-header {
-    color: white;
     background-color: #01375D;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: grid;
-    grid-template-columns: 150px auto;
 
-
-}
-
-.profile {
-    border: 5px solid #d9c2a3;
-    width: 130%;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 
 footer {
+    text-align: center;
     background-color: #01375D;
     color: #f5f4f3;
     padding: 25px 50px;
@@ -98,107 +103,11 @@ footer {
     align-items: center;
 }
 
+a {
+    color: rgb(16, 16, 16);
 
-
-
-footer p {
-    text-decoration: underline;
 }
 
-h2 {
-    padding: 0;
-}
-
-#profile {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
-
-form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-form li+li {
-    margin-top: 1em;
-}
-
-label {
-    /* Uniform size & alignment */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-}
-
-
-textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-
-    /* Uniform text field size */
-    width: 300px;
-    box-sizing: border-box;
-
-    /* Match form field borders */
-    border: 1px solid #999;
-}
-
-
-textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-}
-
-textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
-
-    /* Provide space to type some text */
-    height: 5em;
-}
-
-
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;
-}
-
-.moveDown {
-    margin-top: 3em;
-}
-
-@media screen and (max-width: 900px) {
-
-    nav,
-    footer {
-        flex-direction: column;
-    }
-
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-
-    footer {
-        margin-top: 25px;
-    }
+.navigation li a {
+    text-decoration: none;
 }

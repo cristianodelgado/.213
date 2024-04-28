@@ -1,0 +1,114 @@
+@media(min-width:640px) {
+    nav .navigation {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    header {
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Bad Script';
+
+    }
+
+    nav .navigation {
+        flex: 1 1 100%;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+
+    /*----Form--- */
+
+    form input.submitBtn {
+        width: 10%;
+    }
+
+    option {
+        width: 1.8%;
+    }
+
+    span.namef {
+        font-size: 2.5rem;
+
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    fieldset label input {
+        width: 35%;
+    }
+}
+
+/*#menu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}*/
+
+
+.navigation li {
+    display: none;
+}
+
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
+@media (min-width: 37.5em) {
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    /*#menu {
+        display: none;
+
+    }*/
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .stuff {
+        margin: 1rem auto;
+
+    }
+
+
+
+
+
+
+}
