@@ -20,11 +20,14 @@ h1 {
 
 main {
     display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2rem;
 }
 
 h2 {
     color: navy;
     text-align: left;
+    grid-column: 1/3;
 }
 
 article p {
@@ -32,8 +35,10 @@ article p {
 }
 
 .callout {
-    color: #777;
-    background-color: #702963;
+    color: #e0e1f0;
+    background-color: #6a2b01;
+    grid-column: 1/3;
+    padding: 1rem;
 }
 
 footer {
