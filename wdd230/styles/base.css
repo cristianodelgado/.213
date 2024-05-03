@@ -105,10 +105,10 @@ footer {
     align-items: center;
 }
 
-a {
+/*a {
     color: rgb(16, 16, 16);
 
-}
+}*/
 
 .navigation li a {
     text-decoration: none;
