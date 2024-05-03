@@ -46,7 +46,7 @@
     }
 }
 
-/*#menu {
+#menu {
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -58,7 +58,7 @@
 
 #menu.open::before {
     content: "X";
-}*/
+}
 
 
 .navigation li {
@@ -87,10 +87,10 @@
         text-align: center;
     }
 
-    /*#menu {
+    #menu {
         display: none;
 
-    }*/
+    }
 
     .navigation {
         flex-direction: row;

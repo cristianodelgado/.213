@@ -16,6 +16,7 @@ header {
     background-color: #01375D;
     padding: 10px;
     font-size: 1.5rem;
+    color: white;
 
 }
 
@@ -23,7 +24,7 @@ header {
     background-color: #101010;
     list-style-type: none;
     margin: auto;
-    /* max-width: 1600px;*/
+    max-width: 1600px;
     text-align: center;
     font-size: 1.5rem;
 }
@@ -89,6 +90,7 @@ h2 {
     display: block;
     text-align: center;
     background-color: #01375D;
+    color: white;
 
 }
 
