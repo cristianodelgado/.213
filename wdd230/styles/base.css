@@ -47,7 +47,7 @@ nav .navigation {
 
 
 body {
-    background-color: white;
+    background-color: rgb(193, 200, 204);
     margin: 5px;
 }
 
@@ -73,6 +73,8 @@ h1 {
     box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
     text-align: center;
     overflow: hidden;
+    background-color: White;
+    color: black;
 }
 
 .card1 {
@@ -81,6 +83,8 @@ h1 {
     margin: 2rem 2vw;
     overflow: hidden;
     box-shadow: 1.5px 1.5px 1.5px 1.5px #7a7d94;
+    background-color: White;
+    color: black;
 }
 
 h2 {
@@ -96,19 +100,27 @@ h2 {
 
 footer {
     text-align: center;
-    background-color: #01375D;
+    /*background-color: #01375D;
     color: #f5f4f3;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;*/
 }
 
-/*a {
+#mode {
+    position: relative;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #01375D;
+}
+
+a {
     color: rgb(16, 16, 16);
 
-}*/
+}
 
 .navigation li a {
     text-decoration: none;
