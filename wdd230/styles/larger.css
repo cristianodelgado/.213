@@ -58,6 +58,7 @@
 
 #menu.open::before {
     content: "X";
+    color: white;
 }
 
 
