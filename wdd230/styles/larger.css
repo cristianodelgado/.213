@@ -54,6 +54,7 @@
 
 #menu::before {
     content: "☰";
+    color: white;
 }
 
 #menu.open::before {
