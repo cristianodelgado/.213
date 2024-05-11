@@ -119,3 +119,25 @@ a {
 .navigation li a {
     text-decoration: none;
 }
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero span {
+    position: absolute;
+    right: 30%;
+    box-shadow: .5px .5px 1.5px#3D405B;
+    padding: .5rem;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 1.5rem;
+    background-color: rgba(232, 214, 193, 0.5);
+
+}
+
+iframe {
+    width: 100vw;
+
+}
