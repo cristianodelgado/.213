@@ -51,14 +51,15 @@ let dayVisits = Date.now(window.localStorage.getItem(".stoday")) || 0;
 
 const visitsDisplay = document.querySelector(".visits");
 let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
-if (numVisits !== 0) {
-    visitsDisplay.textContent = numVisits;
-} else if (numVisits == 0) {
+//if (numVisits !== 0) {
+//visitsDisplay.textContent = numVisits;
+//}
+if (numVisits == 0) {
 
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.!";
 }
 else if (dayVisits < msToDays) {
-    dayVisitDisplay.textContent = dayVisits;
+    //dayVisitDisplay.textContent = dayVisits;
     dayVisitDisplay.textContent = "Back so soon! Awesome!"
 }
 else {
