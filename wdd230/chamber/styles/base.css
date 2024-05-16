@@ -222,6 +222,7 @@ footer p {
 footer {
     background-color: #141F9A;
     padding: 2%;
+    color: white;
 }
 
 #hero-img {
@@ -336,4 +337,63 @@ main p {
     width: 100%;
     font-size: large;
     text-align: center;
+}
+
+/*-----------------DISCOVER-------------------------------------*/
+
+.demographics {
+    background-color: #B6D6CC;
+    padding: 10%;
+    margin-bottom: 10%;
+}
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+#visits {
+    text-align: right;
+}
+
+.imagesvm h2,
+h3,
+h4 {
+    text-align: center;
+}
+
+.imagesvm p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 3%;
+}
+
+.imagesvm img:hover {
+    box-shadow: 0 0 50px #0b3435;
+}
+
+.social img {
+
+    padding: 0%;
+    width: 40px;
+    height: auto;
+
+}
+
+.liner {
+    border-top: 1px solid #abd1d5;
+    margin-bottom: 2%;
+
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
