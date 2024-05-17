@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+table {
+    border-collapse: separate;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+thead :first-child {
+    font-size: 1.5rem;
+    background-color: #7b9176;
+    border: 1px solid black;
+
+}
+
+tbody th {
+    background-color: #93ac85;
+    border: 1px solid black;
+
+}
+
+thead th {
+    background-color: #96e1a4;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(129, 115, 115, 0.25);
+
+}
+
+caption {
+    caption-side: bottom;
+}

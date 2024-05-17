@@ -1,0 +1,88 @@
+:root {
+    --font-family: 'Assistant';
+    --primari-color: #7a7d94;
+    --secondary-color: #FFFFFF;
+    --accent1-color: #F5D6A3;
+}
+
+fieldset label input {
+    display: block;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 96%;
+}
+
+legend {
+    font-size: 1.5rem;
+}
+
+header {
+    font-family: var(--font-family);
+}
+
+
+#rang {
+    display: flex;
+    margin: 0 0 0 25px;
+
+}
+
+option {
+    width: 1.2rem;
+}
+
+#range option {
+    flex: 1 1 auto;
+}
+
+input[type=range] {
+    margin: 1rem;
+    padding: 0.5em;
+}
+
+#range {
+    width: 200px;
+    margin-bottom: 0;
+
+}
+
+.record {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10%;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--primari-color);
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 1% 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form {
+    margin: 7%;
+
+}
+
+.form1 {
+    font-family: var(--font-family);
+}
+
+#rangevalue {
+    margin-left: 3%;
+}
+
+span.namef {
+    font-size: 1rem;
+
+
+}
+
+.footer {
+    font-size: 0.8rem;
+}
