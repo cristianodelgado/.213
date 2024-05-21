@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERCA VM</title>
+
+    <meta name="description" content=" WDD 230 - Web Frontend Development ,Cristian Delgado ,The Chamber of Commerce ">
+    <meta name=" author" content="Cristian Delgado">
+
+    <meta property="og:title" content="AERCA">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://github.com/cristianodelgado/cristianodelgado.github.io/blob/main/wdd230/chamber/images/profile.jpeg">
+    <meta property="og:url" content="https://cristianodelgado.github.io/wdd230/chamber/index.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="week02/images/favicon.ico">
+
+
+</head>
+
+<body>
+    <header>
+
+        <button type="submit" class="join">Join</button>
+
+    </header>
+    <section id="hero-msg">
+        <!--<div id="mode">🕶️</div>-->
+        <a id="menu" href="#"></a>
+        <nav>
+
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+
+
+            </ul>
+        </nav>
+    </section>
+    <h1 class="home-title">AERCA </h1>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/aerca.jpeg" alt="">
+        </div>
+
+    </div>
+    <h2>We are a Sector entity that promotes the development of small and medium-sized local businesses and the
+        central region through union representation, visualization of business opportunities, support for the
+        business initiative of young entrepreneurs, training, and support in services management.
+    </h2>
+
+
+    <main class="mainform">
+        <div class="container1">
+            <div class="gold">
+
+                <img src="images/happy.webp" alt=" Happy">
+            </div>
+            <div class="formdiv">
+                <form method="get" action="thankyou.html">
+                    <h4 class="formh4">Membership application form </h4>
+                    <label>First Name: *<input id="name" name="name" type="text" required></label>
+                    <label>Last Name: *<input id="lastname" name="lastname" type="text" required></label>
+                    <label> Title or Position: *<input id="position" type="text" name="position" pattern="[A-Za-z]{6,}"
+                            title="Only accept alpha characters, hyphens, minimum of seven characters ">
+                    </label>
+                    <label> Email:* <input type="email" name="email" id="email" placeholder="myemail...@gmail.com"
+                            title="Please enter a valid email address" required></label>
+                    <label> Mobile Phone Number:* <input type="tel" name="phone" id="phone" placeholder="1234567890"
+                            required></label>
+                    <label> Business/organization's name:* <input type="text" name="org" id="org" required></label>
+                    <fieldset>
+                        <legend> Select a membership level</legend>
+                        <label><input name="member" type="radio"> NP Membership</label>
+                        <label><input name="member" type="radio"> Bronze Membership</label>
+                        <label><input name="member" type="radio"> Silver Membership</label>
+                        <label><input name="member" type="radio">Gold Membership</label>
+                    </fieldset>
+                    <p class="descrip"><label>Description:</label></p>
+                    <label><textarea name="text" id="text"></textarea></label>
+
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+
+            </div>
+        </div>
+
+        <div class="container2">
+            <h2>Agreements and Benefits</h2>
+            <div class="cinema">
+
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/premio.webp" alt="Credit">
+            </div>
+            <div class="cinema1">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/discount.webp" alt="Discount">
+            </div>
+            <div class="cinema2">
+                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa esse. Provident modi
+                    repellendus libero ipsam sapiente quas architecto harum error itaque repudiandae.</h4>
+                <img src="images/class.webp" alt="Class">
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p> &copy; <span id="year">Year</span></p>
+        <p>Cristian Delgado</p>
+        <p> WDD 230</p>
+        <p id="lastModified"></p>
+
+    </footer>
+    <script src="scripts/getdates.js"></script>
+
+</body>
+
+</html>
