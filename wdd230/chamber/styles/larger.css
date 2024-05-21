@@ -71,6 +71,130 @@
         width: 90%;
     }
 
+    /*-----------FORM------------*/
+
+    form {
+        width: 90%;
+    }
+
+    .descrip {
+        font-family: "Roboto Condensed";
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    .join {
+        width: 30%;
+        text-align: center;
+    }
+
+
+    #forecast {
+
+
+        flex-direction: row;
+
+    }
+
+    input#name,
+    input#lastname,
+    input#position,
+    input#phone,
+    input#email,
+    input#org {
+        font-size: 1rem;
+        margin: 1%;
+
+    }
+
+
+    #name,
+    #lastname,
+    #position,
+    #phone,
+    #email,
+    #org {
+        width: 80%;
+        font-size: 1rem;
+        padding: 2%;
+    }
+
+    fieldset {
+        width: 80%;
+
+    }
+
+    .gold {
+        width: 100%;
+
+    }
+
+    .gold img {
+        border-radius: 5rem;
+    }
+
+
+
+    .mainform {
+        flex-direction: row;
+    }
+
+
+    .container1 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 5rem;
+    }
+
+
+
+
+
+
+
+    .record p {
+
+        font-size: 1rem;
+        text-align: center;
+
+    }
+
+    .cinema h4,
+    .cinema1 h4,
+    .cinema2 h4 {
+        font-size: 1.8rem;
+        margin: 5%;
+    }
+
+    .container2 {
+        display: inline-flex;
+        margin: 5%;
+    }
+
+    .cinema,
+    .cinema1,
+    .cinema2 {
+
+        border-style: groove;
+        width: 30%;
+        height: auto;
+
+    }
+
+    .cinema img,
+    .cinema1 img,
+    .cinema2 img {
+
+        width: 80%;
+        height: auto;
+
+    }
+
+    h2 {
+        color: orangered;
+        text-align: center;
+    }
+
 
 
 
