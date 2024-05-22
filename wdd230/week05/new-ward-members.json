@@ -1,0 +1,18 @@
+{
+    "familyName": "Delgado",
+    "dateFamilyMoved": "19th Aug 2023",
+    "numberPeople": 2,
+    "visited": false,
+    "members": [
+        {
+            "name": "Ricardo",
+            "gender": "male",
+            "birthdate": "February 15"
+        },
+        {
+            "name": "Pamela",
+            "gender": "female",
+            "birthdate": "May 18"
+        }
+    ]
+}
