@@ -4,7 +4,7 @@ loadTimes = Date.now();
 
 
 
-const url = 'https://github.com/cristianodelgado/cristianodelgado.github.io/blob/main/wdd230/chamber/data/members.json';
+const url = 'https://raw.githubusercontent.com/cristianodelgado/cristianodelgado.github.io/main/wdd230/chamber/data/members.json';
 const cards1 = document.querySelector("#cards");
 
 async function getMembersData() {
