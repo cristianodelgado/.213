@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Aldo F Benito e Hijos",
+            "addresses": "Buenos Aires 1499-5900 VILLA MARIA",
+            "phone": "+54-353-5323/24",
+            "website": "https://aldobenito.com.ar/",
+            "imageurl": "images/logo-a-benito.webp",
+            "level": "Bronze"
+        },
+        {
+            "name": "FEMA",
+            "addresses": "Jujuy 554-5900 VILLA MARIA",
+            "phone": "+54-353-4817069",
+            "website": "https://www.femaelectricidad.com.ar/home.aspx",
+            "imageurl": "images/",
+            "level": "Silver "
+        },
+        {
+            "name": "Hiperseco ",
+            "addresses": "Bv España 600-5900 VILLA MARIA",
+            "phone": "+54-353-4615339",
+            "website": "https://www.hiperseco.com/",
+            "imageurl": "images/",
+            "level": "Bronze"
+        },
+        {
+            "name": "FarmaVida",
+            "addresses": "Mendoza 1190-5900 VILLA MARIA",
+            "phone": "+54-0353-4520750",
+            "website": "https://farmavidavm.com/",
+            "imageurl": "images/",
+            "level": "Silver "
+        },
+        {
+            "name": "Oversoft",
+            "addresses": "Agapito Albert 181 parque industrial -5900 VILLA MARIA",
+            "phone": "+54-3534-793302",
+            "website": "https://www.oversoft.net/",
+            "imageurl": "images/",
+            "level": "Gold"
+        },
+        {
+            "name": "Bulonera Camba SRL",
+            "addresses": "Bv España 560 -5900 VILLA MARIA",
+            "phone": "+54-353-4534116",
+            "website": "https://buloneracamba.com.ar/bulones/",
+            "imageurl": "images/",
+            "level": "Silver "
+        },
+        {
+            "name": "Tonadita",
+            "addresses": "Caudillos Federales 1899-5900 VILLA MARIA",
+            "phone": "+54-0800362-2111",
+            "website": "https://www.tonadita.com/",
+            "imageurl": "images/",
+            "level": "Gold"
+        }
+    ]
+}
