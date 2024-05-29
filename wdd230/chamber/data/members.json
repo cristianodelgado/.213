@@ -13,7 +13,7 @@
             "addresses": "Jujuy 554-5900 VILLA MARIA",
             "phone": "+54-353-4817069",
             "website": "https://www.femaelectricidad.com.ar/home.aspx",
-            "imageurl": "wdd230/chamber/images/Logo-fema.webp",
+            "imageurl": "images/Logo-fema.webp",
             "level": "Silver "
         },
         {
@@ -21,7 +21,7 @@
             "addresses": "Bv España 600-5900 VILLA MARIA",
             "phone": "+54-353-4615339",
             "website": "https://www.hiperseco.com/",
-            "imageurl": "wdd230/chamber/images/hiperseco.webp",
+            "imageurl": "images/hiperseco.webp",
             "level": "Bronze"
         },
         {
@@ -29,7 +29,7 @@
             "addresses": "Mendoza 1190-5900 VILLA MARIA",
             "phone": "+54-0353-4520750",
             "website": "https://farmavidavm.com/",
-            "imageurl": "wdd230/chamber/images/logochico.webp",
+            "imageurl": "images/logochico.webp",
             "level": "Silver "
         },
         {
@@ -37,7 +37,7 @@
             "addresses": "Agapito Albert 181 parque industrial -5900 VILLA MARIA",
             "phone": "+54-3534-793302",
             "website": "https://www.oversoft.net/",
-            "imageurl": "wdd230/chamber/images/oversoftLogo.webp",
+            "imageurl": "images/oversoftLogo.webp",
             "level": "Gold"
         },
         {
