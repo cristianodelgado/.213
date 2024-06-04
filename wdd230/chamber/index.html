@@ -25,30 +25,33 @@
 
 <body>
     <header>
-
-        <button type="submit" class="join">Join</button>
-
+        <form class="formjoin" action="join.html">
+            <button type="submit" class="join">Join</button>
+        </form>
+        <button class="banner" onclick="on()">🗓️</button>
     </header>
-    <section id="hero-msg">
-        <h2>.</h2>
-        <!--<div id="mode">🕶️</div>-->
-        <a id="menu" href="#"></a>
-        <nav>
-
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-
-
-            </ul>
-        </nav>
-    </section>
     <h1 class="home-title">AERCA </h1>
     <div id="hero">
         <div id="hero-box">
             <img id="hero-img" src="images/aerca.jpeg" alt="">
         </div>
+        <section id="hero-msg">
+
+            <!--<div id="mode">🕶️</div>-->
+            <a id="menu" href="#"></a>
+            <nav>
+
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+
+
+                </ul>
+            </nav>
+
+        </section>
+    </div>
 
     </div>
     <h2>We are a Sector entity that promotes the development of small and medium-sized local businesses and the
@@ -56,21 +59,22 @@
         business initiative of young entrepreneurs, training, and support in services management.</h2>
     <div class="hl"></div>
     <main>
-        <!--<div id="overlay" onclick="off()">
+        <div id="overlay" onclick="off()">
             <div id="text"></div>
             <div>
                 <p>Attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.!!! </p>
                 <p id="cross">✕</p>
             </div>
-        </div>-->
+        </div>
         <section id="events">
-            <button class="btn">Meeting </button>
+            <!--<button class="btn">Meeting </button>-->
             <h3>Events</h3>
             <!--<h4>Meeting</h4>-->
             <p>We invite you to participate in this meeting to discuss technology as a strategic ally of family
                 businesses.
-                Date: 5/28/24 from 2-4 pm.</p>
-            <img src="images/activity.jpg" alt="Activity">
+                Date: 5/28/24 from 2-4 pm.
+            </p>
+            <img src="images/activity.webp" alt="Activity">
         </section>
         <section class="wheather">
             <div class="pwheather">
@@ -81,12 +85,12 @@
                 <p id="temperature"></p>
                 <img id="graphic" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon">
             </div>
-            <!--<h3 id="titlefore">Three days weather forecast </h3>
+            <h3 id="titlefore">Three days weather forecast </h3>
             <div id="forecast">
                 <div class="forecast"></div>
                 <div class="fforecast"></div>
                 <div class="fforecast3"></div>
-            </div>-->
+            </div>
         </section>
         <section class="spotlights">
             <h3>Spotlights</h3>
@@ -100,6 +104,20 @@
     </main>
 
     <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/aercavm">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://x.com/aercavm">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://www.instagram.com/aercavm/">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+        <h5>📞0353 453 1378 - Customer Services</h5>
+        <p>Contact information : AERCA@AERCA.ORG.AR </p>
+        <div class="liner"></div>
         <p> &copy; <span id="year">Year</span></p>
         <p>Cristian Delgado</p>
         <p> WDD 230</p>
@@ -107,6 +125,8 @@
 
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/forecast.js"></script>
 
 </body>
 

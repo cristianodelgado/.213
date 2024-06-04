@@ -50,25 +50,25 @@ header {
 
 }
 
-/*.location {
+.location {
     color: #005E66;
     font-size: 1.5rem;
     box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
     padding: .4rem;
     margin: .5rem;
 
-}*/
+}
 
-/*.banner {
+.banner {
 
     font-size: 2.5rem;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px #005E66;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #023135;
     padding: .4rem;
     margin: .5rem;
-    color: #000000;
+    color: #dad5d5;
 
 
-}*/
+}
 
 #load {
     font-size: 2.5rem;
@@ -97,7 +97,7 @@ h2 {
 h3 {
     margin-top: 10%;
     text-align: center;
-    font-size: 1rem;
+
 }
 
 h4 {
@@ -150,9 +150,9 @@ h5 {
 .forecast,
 .fforecast,
 .fforecast3 {
-    color: #e5e5e5;
+    color: #070acd;
     font-size: 1.5rem;
-    background-color: #000000;
+    background-color: #ea8706;
     margin-top: 15%;
 
 }
@@ -376,7 +376,7 @@ h4 {
 
 .social img {
 
-    padding: 0%;
+    padding: 2%;
     width: 40px;
     height: auto;
 
@@ -655,7 +655,7 @@ div .directorymenu {
 }
 
 .list section.memb {
-    /*border-style: none;*/
+
     border: 1px solid;
 }
 

@@ -40,7 +40,7 @@ const displayMembers = (members) => {
         web.setAttribute("target", "_blank");
         addrees.textContent = `Address: ${member.addresses}`;
         phone.textContent = `Phone numbers: ${member.phone}`;
-        web.setAttribute("title", "WEbsite");
+        web.setAttribute("title", "Website");
 
 
         card.appendChild(company);
