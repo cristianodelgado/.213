@@ -496,6 +496,11 @@ input#description {
 
 }
 
+#date1 {
+    display: block;
+    width: 83%;
+}
+
 .gold img {
     border-radius: 2rem;
     width: 80%;
